@@ -1,0 +1,41 @@
+<meta charset="UTF-8" />
+<script>
+   
+                                                           //Essa era a q o professor estava fazendo na sala
+  
+   /*
+    Faça um script que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é:
+    - par ou ímpar;
+    - positivo ou negativo;
+    - inteiro ou decimal.
+    */
+
+    // Entrada de Dados
+    num1 = parseInt(input("num1"));
+    num2 = parseInt(input("num2"));
+    op = input("+, -, *, /");
+
+    // Processamento
+    if (op == "+"){
+        num1 += num2;
+    }else if (op == "-"){
+        num1 -= num2;
+    }else if (op == "*"){
+        num1 *= num2;
+    }else if (op == "/"){
+        num1 /= num2;
+    }else alert("Operação Inválida");
+
+    if (num1 >0) Alert ("Positivo")
+    else if (num1 <0) Alert ("Negativo")
+    else Alert ("Neutro")
+    
+    if (num1 % 2==0) Alert ("Par")
+    else Alert ("Impar")
+        
+
+    // Saída de Dados
+    
+
+
+</script>
